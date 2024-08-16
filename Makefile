@@ -1,6 +1,6 @@
 CC=gcc
 BIN=todo
-SOURCE=*.CC
+SOURCE=*.C
 LIBS=-lglfw -lleif -lclipboard -lm -lGL -lxcb -lX11
 
 .PHONY: all clean install uninstall
